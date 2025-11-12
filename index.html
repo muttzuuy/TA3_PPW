@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoTo | Empower Progress</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800 transition-colors duration-500">
+
+  <!-- HEADER -->
+  <header id="header" class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-lg shadow-sm transition-all duration-500">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <div class="flex items-center space-x-2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/GoTo_logo.svg" alt="GoTo Logo" class="h-8">
+        <span class="text-2xl font-bold text-[#00AA13] tracking-tight">GoTo</span>
+      </div>
+      <nav id="navMenu" class="hidden md:flex space-x-8 font-medium">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Layanan</a>
+        <a href="#about" class="nav-link">Tentang</a>
+        <a href="#values" class="nav-link">Nilai Kami</a>
+        <a href="#stats" class="nav-link">Capaian</a>
+        <a href="#partners" class="nav-link">Partner</a>
+        <a href="#contact" class="nav-link">Kontak</a>
+      </nav>
+      <div class="flex items-center space-x-4">
+        <button id="themeToggle" class="text-[#00AA13] text-2xl focus:outline-none">🌙</button>
+        <button id="menuBtn" class="md:hidden text-[#00AA13] text-3xl focus:outline-none">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="relative pt-36 pb-28 bg-gradient-to-br from-[#00AA13] via-[#009900] to-[#007F0E] text-white overflow-hidden">
+    <div class="absolute inset-0 bg-[url('https://www.toptal.com/designers/subtlepatterns/patterns/symphony.png')] opacity-10"></div>
+    <div class="container mx-auto px-6 text-center relative z-10">
+      <h1 class="text-5xl md:text-6xl font-extrabold mb-6 animate-fadeInUp">
+        Membangun Masa Depan Digital Indonesia
+      </h1>
+      <p class="text-lg md:text-xl mb-10 text-green-100 animate-fadeInUp delay-150">
+        GoTo menghadirkan inovasi yang menghubungkan mobilitas, perdagangan, dan layanan keuangan dalam satu ekosistem digital terintegrasi.
+      </p>
+      <a href="#contact" class="btn-primary">Gabung Bersama Kami</a>
+    </div>
+    <div class="absolute bottom-0 left-0 right-0">
+      <svg class="w-full h-20 text-white" fill="currentColor" viewBox="0 0 1440 320">
+        <path d="M0,160L1440,96L1440,320L0,320Z"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+<section id="features" class="py-24 bg-white dark:bg-gray-900">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="section-title">Layanan Utama GoTo</h2>
+    <p class="max-w-2xl mx-auto text-gray-600 dark:text-gray-400 mb-12">
+      Kami menyediakan layanan digital inovatif untuk masyarakat, bisnis, dan mitra kami agar tumbuh bersama di era ekonomi digital.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+      <!-- Gojek -->
+      <a href="gojek.html" class="feature-card hover:scale-105 transition transform duration-300 block">
+        <img src="https://cdn-icons-png.flaticon.com/512/743/743007.png" alt="Gojek Icon" class="mx-auto h-16 mb-4">
+        <h3>Gojek</h3>
+        <p>Transportasi, pesan-antar makanan, dan logistik dalam satu aplikasi super — cepat, aman, dan mudah.</p>
+      </a>
+
+      <!-- Tokopedia -->
+      <a href="tokopedia.html" class="feature-card hover:scale-105 transition transform duration-300 block">
+        <img src="https://cdn-icons-png.flaticon.com/512/2921/2921822.png" alt="Tokopedia Icon" class="mx-auto h-16 mb-4">
+        <h3>Tokopedia</h3>
+        <p>Marketplace terpercaya untuk jutaan penjual dan pembeli di seluruh Indonesia.</p>
+      </a>
+
+      <!-- GoTo Financial -->
+      <a href="financial.html" class="feature-card hover:scale-105 transition transform duration-300 block">
+        <img src="https://cdn-icons-png.flaticon.com/512/2331/2331970.png" alt="GoTo Financial Icon" class="mx-auto h-16 mb-4">
+        <h3>GoTo Financial</h3>
+        <p>Solusi keuangan digital melalui GoPay, GoPayLater, dan Moka POS untuk kemudahan transaksi Anda.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="py-24 bg-gray-100 dark:bg-gray-800 transition-colors duration-500">
+  <div class="container mx-auto px-6 md:flex md:items-center">
+    <div class="md:w-1/2 mb-10 md:mb-0 animate-fadeInLeft">
+      <img src="gotoTeam.jpeg" 
+           alt="GoTo Team" class="rounded-2xl shadow-2xl transform hover:scale-105 transition duration-700">
+    </div>
+    <div class="md:w-1/2 md:pl-12 animate-fadeInRight">
+      <h2 class="section-title text-left text-[#00AA13]">Tentang Kami</h2>
+      <p class="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+        GoTo merupakan hasil kolaborasi Gojek dan Tokopedia untuk membangun ekosistem digital yang mendorong kemajuan Indonesia.
+      </p>
+      <ul class="text-gray-700 dark:text-gray-300 mb-6 space-y-2">
+        <li>✅ Menghubungkan jutaan pengguna dan mitra di Asia Tenggara</li>
+        <li>✅ Memberdayakan ekonomi digital secara inklusif</li>
+        <li>✅ Fokus pada keberlanjutan dan inovasi teknologi</li>
+      </ul>
+      <a href="tentang.html" class="btn-outline">Pelajari Lebih Lanjut</a>
+    </div>
+  </div>
+</section>
+
+  <!-- VALUES -->
+  <section id="values" class="py-24 bg-white dark:bg-gray-900 text-center">
+    <div class="container mx-auto px-6">
+      <h2 class="section-title">Nilai-Nilai Utama Kami</h2>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mt-10">
+        <div class="feature-card">
+          <div class="icon">💡</div>
+          <h3>Inovasi</h3>
+          <p>Kami terus menciptakan solusi baru untuk memperkuat kemajuan masyarakat digital.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🌱</div>
+          <h3>Keberlanjutan</h3>
+          <p>Membangun dampak jangka panjang yang positif bagi lingkungan dan komunitas.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">🤝</div>
+          <h3>Kolaborasi</h3>
+          <p>Kami bekerja sama dengan mitra dan pelanggan untuk mencapai kemajuan bersama.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">💚</div>
+          <h3>Inklusivitas</h3>
+          <p>Memberikan akses dan peluang yang sama bagi seluruh lapisan masyarakat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+<section id="stats" class="py-20 bg-gray-100 dark:bg-gray-800 text-center">
+  <div class="container mx-auto px-6">
+    <h2 class="section-title mb-12">Capaian Kami</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="stat-card">
+        <h3 class="counter" data-target="55000000">0</h3>
+        <p>Pengguna Aktif</p>
+      </div>
+      <div class="stat-card">
+        <h3 class="counter" data-target="2000000">0</h3>
+        <p>UMKM Tergabung</p>
+      </div>
+      <div class="stat-card">
+        <h3 class="counter" data-target="500">0</h3>
+        <p>Kota Terlayani</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- PARTNERS -->
+  <section id="partners" class="py-24 bg-white dark:bg-gray-900 text-center">
+  <div class="container mx-auto px-6">
+    <h2 class="section-title">Partner dan Investor Kami</h2>
+    <p class="text-gray-500 dark:text-gray-300 max-w-2xl mx-auto mt-4">
+      Kami bangga berkolaborasi dengan berbagai perusahaan dan investor terkemuka di dunia untuk mempercepat transformasi digital Indonesia.
+    </p>
+
+    <div class="flex flex-wrap justify-center gap-14 mt-12 items-center">
+      <img src="telkomsel.jpeg" alt="Telkomsel" class="h-12 w-auto object-contain grayscale hover:grayscale-0 transition duration-500 hover:scale-105">
+      <img src="Google logo.jpeg" alt="Google" class="h-12 w-auto object-contain grayscale hover:grayscale-0 transition duration-500 hover:scale-105">
+      <img src="Alibaba Group.jpeg" alt="Alibaba Group" class="h-12 w-auto object-contain grayscale hover:grayscale-0 transition duration-500 hover:scale-105">
+      <img src="Sequoia.jpeg" alt="Sequoia Capital" class="h-12 w-auto object-contain grayscale hover:grayscale-0 transition duration-500 hover:scale-105">
+    </div>
+  </div>
+</section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="py-24 bg-gray-50 dark:bg-gray-800">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="section-title">Apa Kata Mitra Kami</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-12">
+        <div class="testimonial-card animate-scroll">
+          <p>“GoTo benar-benar mengubah cara bisnis kami beroperasi di dunia digital.”</p>
+          <h4>— Budi Santoso, CEO FinTechID</h4>
+        </div>
+        <div class="testimonial-card animate-scroll delay-100">
+          <p>“Dengan GoTo Financial, kami bisa melayani pelanggan dengan lebih cepat dan efisien.”</p>
+          <h4>— Maria Ananda, CTO CloudWorks</h4>
+        </div>
+        <div class="testimonial-card animate-scroll delay-200">
+          <p>“Kerjasama dengan GoTo memberi kami kesempatan berkembang ke seluruh Indonesia.”</p>
+          <h4>— Rendra Wijaya, Mitra Driver</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-24 bg-gray-100 dark:bg-gray-900">
+    <div class="container mx-auto px-6">
+      <h2 class="section-title text-center mb-10">Pertanyaan Umum</h2>
+      <div class="max-w-2xl mx-auto space-y-4">
+        <div class="faq-item">
+          <div class="faq-header">Apa itu GoTo?</div>
+          <div class="faq-content">GoTo adalah ekosistem digital hasil kolaborasi Gojek dan Tokopedia untuk memberdayakan masyarakat.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-header">Bagaimana cara menjadi mitra?</div>
+          <div class="faq-content">Anda dapat mendaftar melalui aplikasi Gojek, Tokopedia, atau website GoTo resmi.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-header">Apakah GoTo tersedia di luar Indonesia?</div>
+          <div class="faq-content">GoTo beroperasi di berbagai wilayah Asia Tenggara dan terus memperluas jangkauan.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+<section id="contact" class="py-24 bg-gradient-to-br from-[#00AA13] to-[#007F0E] text-white relative overflow-hidden">
+  <div class="container mx-auto px-6 text-center relative z-10">
+    <h2 class="section-title text-white">Hubungi Kami</h2>
+
+    <div class="flex flex-col md:flex-row items-center justify-center gap-10">
+      <div class="md:w-1/2">
+        <img src="contact.jpg" 
+             alt="Contact Illustration" class="w-full max-w-sm mx-auto drop-shadow-xl rounded-xl" />
+      </div>
+
+      <form class="md:w-1/2 bg-white text-gray-800 p-8 rounded-2xl shadow-2xl space-y-5 animate-scroll">
+        <input type="text" placeholder="Nama Lengkap" class="form-input">
+        <input type="email" placeholder="Email" class="form-input">
+        <textarea placeholder="Pesan Anda" rows="4" class="form-input"></textarea>
+        <button type="submit" class="btn-primary w-full">Kirim Pesan</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#00AA13] text-white py-12 dark:bg-gray-900">
+    <div class="container mx-auto px-6 text-center space-y-6">
+      <div class="flex justify-center items-center space-x-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/GoTo_logo.svg" class="h-8">
+        <h3 class="text-2xl font-bold">GoTo Group</h3>
+      </div>
+      <p class="text-green-100 max-w-2xl mx-auto">GoTo menghubungkan layanan digital untuk transportasi, perdagangan, dan keuangan — memberdayakan kemajuan bangsa.</p>
+      <div class="flex justify-center space-x-6 text-lg">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+      <p class="text-sm text-green-200">&copy; 2025 GoTo Group. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
